@@ -45,9 +45,59 @@ namespace ListaDeTarefas.UserControls
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
-            UC_Login log = new UC_Login();
-            this.Controls.Clear();
-            this.Controls.Add(log);
+            try
+            {
+                if (!txtNomeUsuario.Text.Equals("") && !txtEmailC.Text.Equals("") && !txtSenhaC.Text.Equals(""))
+                {
+                    Tarefas tarefas = new Tarefas();
+                    tarefas.Email = txtEmailC.Text;
+                    tarefas.NomeUsuario = txtNomeUsuario.Text;
+                    tarefas.Senha = txtSenhaC.Text;
+
+                    if (Tarefas.ValidarEmail(txtEmailC.Text))
+                    {
+                        if (tarefas.verificarEmailExistente())
+                        {
+                            if (tarefas.CadastrarUsuario())
+                            {
+                                UC_Login log = new UC_Login();
+                                this.Controls.Clear();
+                                this.Controls.Add(log);
+                            }
+                            else
+                            {
+                                MessageBox.Show("Falha ao cadastrar usuário");
+                                txtEmailC.Clear();
+                                txtSenhaC.Clear();
+                                txtNomeUsuario.Clear();
+                            }
+                        }
+                        else
+                        {
+                            txtEmailC.Clear();
+                            txtSenhaC.Clear();
+                            txtNomeUsuario.Clear();
+                        }
+                    }
+                    else
+                    {
+                        MessageBox.Show("Email inválido");
+                        txtEmailC.Clear();
+                        txtSenhaC.Clear();
+                        txtNomeUsuario.Clear();
+                    }
+                }
+                else
+                {
+                    MessageBox.Show("Preencha os campos corretamente");
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao cadastrar usuário -> {ex.Message}")
+               
+            }
+
         }
     }
 }
