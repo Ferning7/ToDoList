@@ -36,3 +36,4 @@ C:\Users\Aluno_Manha\source\repos\ListaDeTarefas\ListaDeTarefas\bin\Debug\net8.0
 C:\Users\Aluno_Manha\source\repos\ListaDeTarefas\ListaDeTarefas\bin\Debug\net8.0-windows\runtimes\browser\lib\net8.0\System.Text.Encodings.Web.dll
 C:\Users\Aluno_Manha\source\repos\ListaDeTarefas\ListaDeTarefas\obj\Debug\net8.0-windows\ListaDeTarefas.csproj.AssemblyReference.cache
 C:\Users\Aluno_Manha\source\repos\ListaDeTarefas\ListaDeTarefas\obj\Debug\net8.0-windows\ListaDeT.0254F8CC.Up2Date
+C:\Users\Aluno_Manha\source\repos\ListaDeTarefas\ListaDeTarefas\obj\Debug\net8.0-windows\ListaDeTarefas.sourcelink.json

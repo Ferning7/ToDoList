@@ -29,7 +29,7 @@
         private void InitializeComponent()
         {
             btnLogin = new Button();
-            linkLabel1 = new LinkLabel();
+            linkCadastrar = new LinkLabel();
             lblLogin = new Label();
             txtEmailL = new TextBox();
             lblEmail = new Label();
@@ -50,7 +50,7 @@
             btnLogin.FlatStyle = FlatStyle.Popup;
             btnLogin.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnLogin.ForeColor = Color.Black;
-            btnLogin.Location = new Point(399, 291);
+            btnLogin.Location = new Point(399, 288);
             btnLogin.Name = "btnLogin";
             btnLogin.Size = new Size(112, 35);
             btnLogin.TabIndex = 0;
@@ -58,24 +58,25 @@
             btnLogin.UseVisualStyleBackColor = false;
             btnLogin.Click += btnLogin_Click;
             // 
-            // linkLabel1
+            // linkCadastrar
             // 
-            linkLabel1.AutoSize = true;
-            linkLabel1.Font = new Font("Arial Narrow", 12F);
-            linkLabel1.LinkColor = Color.FromArgb(0, 153, 173);
-            linkLabel1.Location = new Point(425, 329);
-            linkLabel1.Name = "linkLabel1";
-            linkLabel1.Size = new Size(65, 20);
-            linkLabel1.TabIndex = 1;
-            linkLabel1.TabStop = true;
-            linkLabel1.Text = "Cadastrar";
+            linkCadastrar.AutoSize = true;
+            linkCadastrar.Font = new Font("Arial Narrow", 12F);
+            linkCadastrar.LinkColor = Color.FromArgb(0, 153, 173);
+            linkCadastrar.Location = new Point(425, 326);
+            linkCadastrar.Name = "linkCadastrar";
+            linkCadastrar.Size = new Size(65, 20);
+            linkCadastrar.TabIndex = 1;
+            linkCadastrar.TabStop = true;
+            linkCadastrar.Text = "Cadastrar";
+            linkCadastrar.LinkClicked += linkCadastrar_LinkClicked;
             // 
             // lblLogin
             // 
             lblLogin.AutoSize = true;
             lblLogin.Font = new Font("Arial Narrow", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblLogin.ForeColor = Color.FromArgb(0, 153, 173);
-            lblLogin.Location = new Point(407, 44);
+            lblLogin.Location = new Point(400, 69);
             lblLogin.Name = "lblLogin";
             lblLogin.Size = new Size(111, 43);
             lblLogin.TabIndex = 2;
@@ -84,7 +85,7 @@
             // txtEmailL
             // 
             txtEmailL.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtEmailL.Location = new Point(380, 147);
+            txtEmailL.Location = new Point(380, 144);
             txtEmailL.Name = "txtEmailL";
             txtEmailL.Size = new Size(159, 26);
             txtEmailL.TabIndex = 3;
@@ -93,7 +94,7 @@
             // 
             lblEmail.AutoSize = true;
             lblEmail.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblEmail.Location = new Point(326, 150);
+            lblEmail.Location = new Point(326, 147);
             lblEmail.Name = "lblEmail";
             lblEmail.Size = new Size(42, 20);
             lblEmail.TabIndex = 4;
@@ -103,7 +104,7 @@
             // 
             lblSenha.AutoSize = true;
             lblSenha.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblSenha.Location = new Point(326, 204);
+            lblSenha.Location = new Point(326, 201);
             lblSenha.Name = "lblSenha";
             lblSenha.Size = new Size(47, 20);
             lblSenha.TabIndex = 5;
@@ -112,7 +113,7 @@
             // txtSenhaL
             // 
             txtSenhaL.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtSenhaL.Location = new Point(380, 201);
+            txtSenhaL.Location = new Point(380, 198);
             txtSenhaL.Name = "txtSenhaL";
             txtSenhaL.Size = new Size(159, 26);
             txtSenhaL.TabIndex = 6;
@@ -120,7 +121,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.lista_de_tarefas__1_;
-            pictureBox1.Location = new Point(22, 82);
+            pictureBox1.Location = new Point(25, 88);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(256, 256);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -131,30 +132,32 @@
             // 
             pbVisivel.Cursor = Cursors.Hand;
             pbVisivel.Image = Properties.Resources.icons8_visível_50;
-            pbVisivel.Location = new Point(545, 197);
+            pbVisivel.Location = new Point(545, 194);
             pbVisivel.Name = "pbVisivel";
             pbVisivel.Size = new Size(35, 33);
             pbVisivel.SizeMode = PictureBoxSizeMode.StretchImage;
             pbVisivel.TabIndex = 8;
             pbVisivel.TabStop = false;
+            pbVisivel.Click += pbVisivel_Click;
             // 
             // pbOculto
             // 
             pbOculto.Cursor = Cursors.Hand;
             pbOculto.Image = Properties.Resources.icons8_cego_64;
-            pbOculto.Location = new Point(545, 197);
+            pbOculto.Location = new Point(545, 194);
             pbOculto.Name = "pbOculto";
             pbOculto.Size = new Size(35, 33);
             pbOculto.SizeMode = PictureBoxSizeMode.StretchImage;
             pbOculto.TabIndex = 9;
             pbOculto.TabStop = false;
+            pbOculto.Click += pbOculto_Click;
             // 
             // linkFgtPwd
             // 
             linkFgtPwd.AutoSize = true;
             linkFgtPwd.Font = new Font("Arial Narrow", 11.25F, FontStyle.Regular, GraphicsUnit.Point, 0);
             linkFgtPwd.LinkColor = Color.FromArgb(0, 153, 173);
-            linkFgtPwd.Location = new Point(380, 229);
+            linkFgtPwd.Location = new Point(380, 226);
             linkFgtPwd.Name = "linkFgtPwd";
             linkFgtPwd.Size = new Size(101, 20);
             linkFgtPwd.TabIndex = 10;
@@ -174,7 +177,7 @@
             Controls.Add(lblEmail);
             Controls.Add(txtEmailL);
             Controls.Add(lblLogin);
-            Controls.Add(linkLabel1);
+            Controls.Add(linkCadastrar);
             Controls.Add(btnLogin);
             Name = "UC_Login";
             Size = new Size(615, 437);
@@ -188,7 +191,7 @@
         #endregion
 
         private Button btnLogin;
-        private LinkLabel linkLabel1;
+        private LinkLabel linkCadastrar;
         private Label lblLogin;
         private TextBox txtEmailL;
         private Label lblEmail;
