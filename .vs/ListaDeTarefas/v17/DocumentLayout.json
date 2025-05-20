@@ -1,0 +1,121 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_login.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 265,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Tarefas.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Tarefas.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Tarefas.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Tarefas.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Tarefas.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAqwBUAAAAeAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:20:06.672Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "UC_Login.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Login.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\UserControls\\UC_Login.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Login.cs",
+              "RelativeToolTip": "ListaDeTarefas\\UserControls\\UC_Login.cs",
+              "ViewState": "AgIAAAsAAAAAAAAAAAAmwB4AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:05:18.625Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Conteudo.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Conteudo.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Conteudo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:00:23.315Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "UC_Login.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Login.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\UserControls\\UC_Login.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Login.cs [Projeto]",
+              "RelativeToolTip": "ListaDeTarefas\\UserControls\\UC_Login.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:47:49.978Z",
+              "EditorCaption": " [Projeto]"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Conteudo.cs [Projeto]",
+              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Conteudo.cs",
+              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs [Projeto]",
+              "RelativeToolTip": "ListaDeTarefas\\Conteudo.cs [Projeto]",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T11:40:28.185Z",
+              "EditorCaption": " [Projeto]"
+            }
+          ]
+        },
+        {
+          "DockedWidth": 244,
+          "SelectedChildIndex": -1,
+          "Children": [
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
