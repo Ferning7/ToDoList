@@ -141,6 +141,86 @@ namespace ListaDeTarefas
             }
         }
 
+        // FALTA MEXER AQUI, COLOCAR DELETE
+        public bool ExcluirTarefa()
+        {
+            try
+            {
+                using (MySqlConnection conexaoBanco = new ConexaoDB().Conectar())
+                {
+
+                    string sqlInsert = "INSERT INTO tarefas (nomeTarefa, statusTarefa, dataInicio) VALUES (@nomeTarefa, @statusTarefa, @data)";
+
+
+                    MySqlCommand comandoSql = new MySqlCommand(sqlInsert, conexaoBanco);
+
+
+
+                    comandoSql.Parameters.AddWithValue("@nomeTarefa", NomeTarefa);
+                    comandoSql.Parameters.AddWithValue("@statusTarefa", StatusTarefa);
+                    comandoSql.Parameters.AddWithValue("@data", Data);
+
+
+                    int resultado = comandoSql.ExecuteNonQuery();
+
+                    if (resultado > 0)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao cadastrar tarefa -> {ex.Message}");
+                return false;
+
+            }
+        }
+
+        // FALTA MEXER AQUI, EDITAR TAREFAS
+        public bool EditarTarefa()
+        {
+            try
+            {
+                using (MySqlConnection conexaoBanco = new ConexaoDB().Conectar())
+                {
+
+                    string sqlInsert = "INSERT INTO tarefas (nomeTarefa, statusTarefa, dataInicio) VALUES (@nomeTarefa, @statusTarefa, @data)";
+
+
+                    MySqlCommand comandoSql = new MySqlCommand(sqlInsert, conexaoBanco);
+
+
+
+                    comandoSql.Parameters.AddWithValue("@nomeTarefa", NomeTarefa);
+                    comandoSql.Parameters.AddWithValue("@statusTarefa", StatusTarefa);
+                    comandoSql.Parameters.AddWithValue("@data", Data);
+
+
+                    int resultado = comandoSql.ExecuteNonQuery();
+
+                    if (resultado > 0)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao cadastrar tarefa -> {ex.Message}");
+                return false;
+
+            }
+        }
+
         public void listarTarefas(DataGridView dgv)
         {
             try

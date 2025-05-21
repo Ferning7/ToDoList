@@ -7,20 +7,20 @@
       "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
       "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -42,20 +42,20 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "Conteudo.cs",
               "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\Conteudo.cs",
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs",
               "RelativeToolTip": "ListaDeTarefas\\Conteudo.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEAAAAAnAAAAAAAAAA==",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAgwEAAAAAnAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T13:41:09.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 1,
               "Title": "Conteudo.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\Conteudo.cs",
@@ -73,14 +73,14 @@
               "RelativeDocumentMoniker": "ListaDeTarefas\\Tarefas.cs",
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Tarefas.cs",
               "RelativeToolTip": "ListaDeTarefas\\Tarefas.cs",
-              "ViewState": "AgIAAIAAAAAAAAAAAAAgwJcAAABIAAAAAAAAAA==",
+              "ViewState": "AgIAAIsAAAAAAAAAAAAowLcAAAArAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-20T12:20:06.672Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 4,
               "Title": "UC_Home.cs",
               "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Home.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\UserControls\\UC_Home.cs",
@@ -93,15 +93,14 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 3,
               "Title": "UC_Home.cs [Projeto]",
               "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Home.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\UserControls\\UC_Home.cs",
               "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Home.cs [Projeto]",
               "RelativeToolTip": "ListaDeTarefas\\UserControls\\UC_Home.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T11:08:28.832Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-05-21T11:08:28.832Z"
             }
           ]
         },
