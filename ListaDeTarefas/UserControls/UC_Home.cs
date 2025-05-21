@@ -34,15 +34,14 @@ namespace ListaDeTarefas.UserControls
                     tarefas.StatusTarefa = "Pendente";
                     tarefas.CriarTarefa();
                     dgvTarefas.Columns["editar"].Width = 10;
-                    MessageBox.Show(tarefas.Data.ToString());
+
                     MessageBox.Show("Tarefa criada");
 
                 }
             }
             catch (Exception ex)
             {
-
-                throw;
+                MessageBox.Show($"Erro ao criar tarefa ->{ex.Message}");
             }
         }
 
@@ -85,19 +84,43 @@ namespace ListaDeTarefas.UserControls
 
         }
 
-        private void dgvTarefas_CellContentClick(object sender, DataGridViewCellEventArgs e)
-        {
-            Tarefas tarefas = new Tarefas();
-            tarefas.Id = Convert.ToInt32(dgvTarefas.Rows[e.RowIndex].Cells["id"].Value.ToString());
-            if (dgvTarefas.Columns[e.ColumnIndex] == dgvTarefas.Columns["editar"])
-            {
 
-            }
-        }
 
         private void btnExcluir_Click(object sender, EventArgs e)
         {
+            Tarefas tarefas = new Tarefas();
+            tarefas.ExcluirTarefa();
 
+        }
+
+        private void dgvTarefas_CellDoubleClick(object sender, DataGridViewCellEventArgs e)
+        {
+            if (e.RowIndex >= 0 && e.ColumnIndex >= 0)
+            {
+                dgvTarefas.BeginEdit(true);
+            }
+        }
+
+        private void dgvTarefas_CellEndEdit(object sender, DataGridViewCellEventArgs e)
+        {
+            int rowIndex = e.RowIndex;
+            int columnIndex = e.ColumnIndex;
+
+            if (rowIndex >= 0 && columnIndex >= 0)
+            {
+                Tarefas tarefas = new Tarefas();
+                var cell = dgvTarefas.Rows[rowIndex].Cells[columnIndex];
+               
+                tarefas.StatusTarefa = cell.Value.ToString();
+                tarefas.StatusTarefa = cell.Value.ToString();
+                tarefas.StatusTarefa = cell.Value.ToString();
+
+                var idTarefa = dgvTarefas.Rows[rowIndex].Cells["id"].Value.ToString();
+
+                tarefas.EditarTarefa();
+
+
+            }
         }
     }
 }

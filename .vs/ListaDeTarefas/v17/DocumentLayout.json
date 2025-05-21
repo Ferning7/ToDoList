@@ -1,26 +1,30 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\",
+  "WorkspaceRootPath": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_tarde\\source\\repos\\todolist\\listadetarefas\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_tarde\\source\\repos\\todolist\\listadetarefas\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_tarde\\source\\repos\\todolist\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_manha\\source\\repos\\listadetarefas\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_tarde\\source\\repos\\todolist\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -30,36 +34,47 @@
       "DocumentGroups": [
         {
           "DockedWidth": 265,
-          "SelectedChildIndex": 4,
+          "SelectedChildIndex": 0,
           "Children": [
             {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
-            },
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
-            },
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "Tarefas.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Tarefas.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Tarefas.cs",
+              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Tarefas.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Tarefas.cs",
+              "ViewState": "AgIAAIgAAAAAAAAAAAAwwJgAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-20T12:20:06.672Z",
+              "EditorCaption": ""
+            }
+          ]
+        },
+        {
+          "DockedWidth": 265,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Conteudo.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs",
-              "RelativeDocumentMoniker": "ListaDeTarefas\\Conteudo.cs",
-              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs",
-              "RelativeToolTip": "ListaDeTarefas\\Conteudo.cs",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAgwEAAAAAnAAAAAAAAAA==",
+              "DocumentIndex": 0,
+              "Title": "Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Usuarios.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Usuarios.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Usuarios.cs",
+              "ViewState": "AgIAABIAAAAAAAAAAAAwwB4AAAAhAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:41:09.088Z",
+              "WhenOpened": "2025-05-21T19:26:21.595Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 4,
               "Title": "Conteudo.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\Conteudo.cs",
-              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Conteudo.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs [Projeto]",
               "RelativeToolTip": "ListaDeTarefas\\Conteudo.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T13:41:06.626Z",
@@ -67,50 +82,41 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "Tarefas.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Tarefas.cs",
-              "RelativeDocumentMoniker": "ListaDeTarefas\\Tarefas.cs",
-              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\Tarefas.cs",
-              "RelativeToolTip": "ListaDeTarefas\\Tarefas.cs",
-              "ViewState": "AgIAAIsAAAAAAAAAAAAowLcAAAArAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T12:20:06.672Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "UC_Home.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Home.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\UserControls\\UC_Home.cs",
-              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Home.cs",
+              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs",
               "RelativeToolTip": "ListaDeTarefas\\UserControls\\UC_Home.cs",
-              "ViewState": "AgIAAAYAAAAAAAAAAAAAACMAAAA8AAAAAAAAAA==",
+              "ViewState": "AgIAAGMAAAAAAAAAAAAswGwAAAAwAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T11:16:59.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Conteudo.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Conteudo.cs",
+              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Conteudo.cs",
+              "ViewState": "AgIAADIAAAAAAAAAAAAswDkAAAAdAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-21T13:41:09.088Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 3,
               "Title": "UC_Home.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Home.cs",
+              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\UserControls\\UC_Home.cs",
-              "ToolTip": "C:\\Users\\Aluno_Manha\\source\\repos\\ListaDeTarefas\\ListaDeTarefas\\UserControls\\UC_Home.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs [Projeto]",
               "RelativeToolTip": "ListaDeTarefas\\UserControls\\UC_Home.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T11:08:28.832Z"
-            }
-          ]
-        },
-        {
-          "DockedWidth": 244,
-          "SelectedChildIndex": -1,
-          "Children": [
-            {
-              "$type": "Bookmark",
-              "Name": "ST:0:0:{eefa5220-e298-11d0-8f78-00a0c9110057}"
+              "WhenOpened": "2025-05-21T11:08:28.832Z",
+              "EditorCaption": " [Projeto]"
             }
           ]
         }

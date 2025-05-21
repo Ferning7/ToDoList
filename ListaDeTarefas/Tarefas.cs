@@ -8,6 +8,8 @@ using System.Security.Cryptography;
 using System.Text;
 using System.Text.RegularExpressions;
 using System.Threading.Tasks;
+using Mysqlx.Crud;
+using System.Windows.Forms;
 
 namespace ListaDeTarefas
 {
@@ -15,9 +17,6 @@ namespace ListaDeTarefas
     {
         private int id;
         private string nomeTarefa;
-        private string nomeUsuario;
-        private string email;
-        private string senha;
         private string statusTarefa;
         private DateTime data;
 
@@ -27,11 +26,6 @@ namespace ListaDeTarefas
             set { id = value; }
         }
 
-        public string NomeUsuario
-        {
-            get { return nomeUsuario; }
-            set { nomeUsuario = value; }
-        }
 
         public string NomeTarefa
         {
@@ -39,18 +33,6 @@ namespace ListaDeTarefas
             set { nomeTarefa = value; }
         }
 
-
-        public string Email
-        {
-            get { return email; }
-            set { email = value; }
-        }
-
-        public string Senha
-        {
-            get { return senha; }
-            set { senha = value; }
-        }
 
         public string StatusTarefa
         {
@@ -65,43 +47,6 @@ namespace ListaDeTarefas
         }
 
 
-
-        public bool CadastrarUsuario()
-        {
-            try
-            {
-                using (MySqlConnection conexaoBanco = new ConexaoDB().Conectar())
-                {
-                    string senhaCripto = CriptografarSenha(Senha);
-                    string sqlInsert = "INSERT INTO usuarios (nomeUsuario, email,  senha) VALUES (@nomeUsuario, @email, @senha)";
-
-                    MySqlCommand comandoSql = new MySqlCommand(sqlInsert, conexaoBanco);
-
-                    comandoSql.Parameters.AddWithValue("@nomeUsuario", NomeUsuario);
-                    comandoSql.Parameters.AddWithValue("@email", email);
-                    comandoSql.Parameters.AddWithValue("@senha", senhaCripto);
-
-                    int resultado = comandoSql.ExecuteNonQuery();
-
-                    if (resultado > 0)
-                    {
-                        return true;
-                    }
-                    else
-                    {
-                        return false;
-                    }
-                }
-            }
-            catch (Exception ex)
-            {
-                MessageBox.Show($"Erro ao cadastrar usuário -> {ex.Message}");
-                return false;
-
-            }
-        }
-
-
         public bool CriarTarefa()
         {
             try
@@ -109,7 +54,7 @@ namespace ListaDeTarefas
                 using (MySqlConnection conexaoBanco = new ConexaoDB().Conectar())
                 {
 
-                    string sqlInsert = "INSERT INTO tarefas (nomeTarefa, statusTarefa, dataInicio) VALUES (@nomeTarefa, @statusTarefa, @data)";
+                    string sqlInsert = "INSERT INTO tarefa (nomeTarefa, statusTarefa, dataInicio) VALUES (@nomeTarefa, @statusTarefa, @data)";
 
 
                     MySqlCommand comandoSql = new MySqlCommand(sqlInsert, conexaoBanco);
@@ -149,10 +94,11 @@ namespace ListaDeTarefas
                 using (MySqlConnection conexaoBanco = new ConexaoDB().Conectar())
                 {
 
-                    string sqlInsert = "INSERT INTO tarefas (nomeTarefa, statusTarefa, dataInicio) VALUES (@nomeTarefa, @statusTarefa, @data)";
+                    string sqlDelete = "DELETE FROM tarefas WHERE nomeTarefa = @nomeTarefa AND statusTarefa = @statusTarefa AND dataInicio = @data";
 
 
-                    MySqlCommand comandoSql = new MySqlCommand(sqlInsert, conexaoBanco);
+
+                    MySqlCommand comandoSql = new MySqlCommand(sqlDelete, conexaoBanco);
 
 
 
@@ -182,14 +128,14 @@ namespace ListaDeTarefas
         }
 
         // FALTA MEXER AQUI, EDITAR TAREFAS
-        public bool EditarTarefa()
+        public bool EditarTarefa(int userID, int idTarefa, string novoStatus)
         {
             try
             {
                 using (MySqlConnection conexaoBanco = new ConexaoDB().Conectar())
                 {
 
-                    string sqlInsert = "INSERT INTO tarefas (nomeTarefa, statusTarefa, dataInicio) VALUES (@nomeTarefa, @statusTarefa, @data)";
+                    string sqlalter = "update as (nomeTarefa, statusTarefa, dataInicio) VALUES (@nomeTarefa, @statusTarefa, @data)";
 
 
                     MySqlCommand comandoSql = new MySqlCommand(sqlInsert, conexaoBanco);
@@ -229,7 +175,7 @@ namespace ListaDeTarefas
                 using (MySqlConnection conexaobanco = new ConexaoDB().Conectar())
                 {
                     DataTable dataTable = new DataTable();
-                    string consultaSQL = "SELECT * FROM tarefas WHERE ";
+                    string consultaSQL = "SELECT * FROM tarefas";
                     MySqlDataAdapter dataAdapter = new MySqlDataAdapter(consultaSQL, conexaobanco);
 
                     dataAdapter.Fill(dataTable);

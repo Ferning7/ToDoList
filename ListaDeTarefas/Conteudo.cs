@@ -63,7 +63,7 @@ namespace ListaDeTarefas
         {
             UC_Login log = new UC_Login();
             UC_Home home = new UC_Home();
-            adicionarUserControl(log);
+            adicionarUserControl(home);
         }
     }
 }
