@@ -49,10 +49,9 @@
             // 
             pbOculto.Cursor = Cursors.Hand;
             pbOculto.Image = Properties.Resources.icons8_cego_64;
-            pbOculto.Location = new Point(747, 379);
-            pbOculto.Margin = new Padding(4, 5, 4, 5);
+            pbOculto.Location = new Point(523, 227);
             pbOculto.Name = "pbOculto";
-            pbOculto.Size = new Size(50, 55);
+            pbOculto.Size = new Size(35, 33);
             pbOculto.SizeMode = PictureBoxSizeMode.StretchImage;
             pbOculto.TabIndex = 20;
             pbOculto.TabStop = false;
@@ -62,10 +61,9 @@
             // 
             pbVisivel.Cursor = Cursors.Hand;
             pbVisivel.Image = Properties.Resources.icons8_visível_50;
-            pbVisivel.Location = new Point(747, 379);
-            pbVisivel.Margin = new Padding(4, 5, 4, 5);
+            pbVisivel.Location = new Point(523, 227);
             pbVisivel.Name = "pbVisivel";
-            pbVisivel.Size = new Size(50, 55);
+            pbVisivel.Size = new Size(35, 33);
             pbVisivel.SizeMode = PictureBoxSizeMode.StretchImage;
             pbVisivel.TabIndex = 19;
             pbVisivel.TabStop = false;
@@ -74,8 +72,7 @@
             // pictureBox1
             // 
             pictureBox1.Image = Properties.Resources.lista_de_tarefas__1_;
-            pictureBox1.Location = new Point(73, 163);
-            pictureBox1.Margin = new Padding(4, 5, 4, 5);
+            pictureBox1.Location = new Point(42, 100);
             pictureBox1.Name = "pictureBox1";
             pictureBox1.Size = new Size(256, 256);
             pictureBox1.SizeMode = PictureBoxSizeMode.AutoSize;
@@ -86,10 +83,9 @@
             // 
             lblSenha.AutoSize = true;
             lblSenha.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblSenha.Location = new Point(434, 390);
-            lblSenha.Margin = new Padding(4, 0, 4, 0);
+            lblSenha.Location = new Point(304, 234);
             lblSenha.Name = "lblSenha";
-            lblSenha.Size = new Size(70, 29);
+            lblSenha.Size = new Size(47, 20);
             lblSenha.TabIndex = 16;
             lblSenha.Text = "Senha";
             // 
@@ -97,31 +93,28 @@
             // 
             lblEmail.AutoSize = true;
             lblEmail.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblEmail.Location = new Point(434, 319);
-            lblEmail.Margin = new Padding(4, 0, 4, 0);
+            lblEmail.Location = new Point(304, 191);
             lblEmail.Name = "lblEmail";
-            lblEmail.Size = new Size(61, 29);
+            lblEmail.Size = new Size(42, 20);
             lblEmail.TabIndex = 15;
             lblEmail.Text = "Email";
             // 
             // txtEmailC
             // 
             txtEmailC.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtEmailC.Location = new Point(511, 314);
-            txtEmailC.Margin = new Padding(4, 5, 4, 5);
+            txtEmailC.Location = new Point(358, 188);
             txtEmailC.Name = "txtEmailC";
-            txtEmailC.Size = new Size(225, 35);
-            txtEmailC.TabIndex = 14;
+            txtEmailC.Size = new Size(159, 26);
+            txtEmailC.TabIndex = 2;
             // 
             // lblLogin
             // 
             lblLogin.AutoSize = true;
             lblLogin.Font = new Font("Arial Narrow", 27.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             lblLogin.ForeColor = Color.FromArgb(0, 153, 173);
-            lblLogin.Location = new Point(438, 75);
-            lblLogin.Margin = new Padding(4, 0, 4, 0);
+            lblLogin.Location = new Point(319, 45);
             lblLogin.Name = "lblLogin";
-            lblLogin.Size = new Size(362, 66);
+            lblLogin.Size = new Size(239, 43);
             lblLogin.TabIndex = 13;
             lblLogin.Text = "Crie sua conta!";
             // 
@@ -130,11 +123,10 @@
             linkLogin.AutoSize = true;
             linkLogin.Font = new Font("Arial Narrow", 12F);
             linkLogin.LinkColor = Color.FromArgb(0, 153, 173);
-            linkLogin.Location = new Point(525, 560);
-            linkLogin.Margin = new Padding(4, 0, 4, 0);
+            linkLogin.Location = new Point(368, 336);
             linkLogin.Name = "linkLogin";
-            linkLogin.Size = new Size(199, 29);
-            linkLogin.TabIndex = 12;
+            linkLogin.Size = new Size(137, 20);
+            linkLogin.TabIndex = 5;
             linkLogin.TabStop = true;
             linkLogin.Text = "Já possuo uma conta";
             linkLogin.LinkClicked += linkLogin_LinkClicked;
@@ -145,11 +137,10 @@
             btnCadastrar.FlatStyle = FlatStyle.Popup;
             btnCadastrar.Font = new Font("Arial Narrow", 15.75F, FontStyle.Bold, GraphicsUnit.Point, 0);
             btnCadastrar.ForeColor = Color.Black;
-            btnCadastrar.Location = new Point(540, 497);
-            btnCadastrar.Margin = new Padding(4, 5, 4, 5);
+            btnCadastrar.Location = new Point(378, 298);
             btnCadastrar.Name = "btnCadastrar";
-            btnCadastrar.Size = new Size(160, 58);
-            btnCadastrar.TabIndex = 11;
+            btnCadastrar.Size = new Size(112, 35);
+            btnCadastrar.TabIndex = 4;
             btnCadastrar.Text = "Cadastrar";
             btnCadastrar.UseVisualStyleBackColor = false;
             btnCadastrar.Click += btnCadastrar_Click;
@@ -158,33 +149,30 @@
             // 
             lblNomeUser.AutoSize = true;
             lblNomeUser.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            lblNomeUser.Location = new Point(434, 232);
-            lblNomeUser.Margin = new Padding(4, 0, 4, 0);
+            lblNomeUser.Location = new Point(304, 139);
             lblNomeUser.Name = "lblNomeUser";
-            lblNomeUser.Size = new Size(70, 29);
+            lblNomeUser.Size = new Size(49, 20);
             lblNomeUser.TabIndex = 23;
             lblNomeUser.Text = "Nome:";
             // 
             // txtNomeUsuario
             // 
             txtNomeUsuario.Font = new Font("Arial Narrow", 12F, FontStyle.Regular, GraphicsUnit.Point, 0);
-            txtNomeUsuario.Location = new Point(511, 227);
-            txtNomeUsuario.Margin = new Padding(4, 5, 4, 5);
+            txtNomeUsuario.Location = new Point(358, 136);
             txtNomeUsuario.Name = "txtNomeUsuario";
-            txtNomeUsuario.Size = new Size(225, 35);
-            txtNomeUsuario.TabIndex = 22;
+            txtNomeUsuario.Size = new Size(159, 26);
+            txtNomeUsuario.TabIndex = 1;
             // 
             // txtSenhaC
             // 
-            txtSenhaC.Location = new Point(511, 390);
-            txtSenhaC.Margin = new Padding(4, 5, 4, 5);
+            txtSenhaC.Location = new Point(358, 234);
             txtSenhaC.Name = "txtSenhaC";
-            txtSenhaC.Size = new Size(225, 31);
-            txtSenhaC.TabIndex = 24;
+            txtSenhaC.Size = new Size(159, 23);
+            txtSenhaC.TabIndex = 3;
             // 
             // UC_Cadastro
             // 
-            AutoScaleDimensions = new SizeF(10F, 25F);
+            AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
             Controls.Add(txtSenhaC);
             Controls.Add(lblNomeUser);
@@ -198,9 +186,8 @@
             Controls.Add(lblLogin);
             Controls.Add(linkLogin);
             Controls.Add(btnCadastrar);
-            Margin = new Padding(4, 5, 4, 5);
             Name = "UC_Cadastro";
-            Size = new Size(879, 728);
+            Size = new Size(615, 437);
             ((System.ComponentModel.ISupportInitialize)pbOculto).EndInit();
             ((System.ComponentModel.ISupportInitialize)pbVisivel).EndInit();
             ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();

@@ -60,6 +60,7 @@ namespace ListaDeTarefas.UserControls
                         {
                             if (tarefas.CadastrarUsuario())
                             {
+                                MessageBox.Show("cadastro realizado" + MessageBoxIcon.Information);
                                 UC_Login log = new UC_Login();
                                 this.Controls.Clear();
                                 this.Controls.Add(log);
@@ -94,8 +95,8 @@ namespace ListaDeTarefas.UserControls
             }
             catch (Exception ex)
             {
-                MessageBox.Show($"Erro ao cadastrar usuário -> {ex.Message}")
-               
+                MessageBox.Show($"Erro ao cadastrar usuário -> {ex.Message}");
+
             }
 
         }

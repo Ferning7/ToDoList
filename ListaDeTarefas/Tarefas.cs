@@ -1,6 +1,8 @@
 ﻿using MySql.Data.MySqlClient;
 using System;
 using System.Collections.Generic;
+using System.Data.Common;
+using System.Data;
 using System.Linq;
 using System.Security.Cryptography;
 using System.Text;
@@ -14,12 +16,10 @@ namespace ListaDeTarefas
         private int id;
         private string nomeTarefa;
         private string nomeUsuario;
-        private string descTarefa;
         private string email;
         private string senha;
         private string statusTarefa;
-        private DateOnly dataIni;
-        private DateOnly dataFim;
+        private DateTime data;
 
         public int Id
         {
@@ -39,11 +39,6 @@ namespace ListaDeTarefas
             set { nomeTarefa = value; }
         }
 
-        public string DescTarefa
-        {
-            get { return descTarefa; }
-            set { descTarefa = value; }
-        }
 
         public string Email
         {
@@ -63,17 +58,13 @@ namespace ListaDeTarefas
             set { statusTarefa = value; }
         }
 
-        public DateOnly DataIni
+        public DateTime Data
         {
-            get { return dataIni; }
-            set { dataIni = value; }
+            get { return data; }
+            set { data = value; }
         }
 
-        public DateOnly DataFim
-        {
-            get { return dataFim; }
-            set { dataFim = value; }
-        }
+
 
         public bool CadastrarUsuario()
         {
@@ -82,7 +73,7 @@ namespace ListaDeTarefas
                 using (MySqlConnection conexaoBanco = new ConexaoDB().Conectar())
                 {
                     string senhaCripto = CriptografarSenha(Senha);
-                    string sqlInsert = "INSERT INTO usuarios (nomeUsuario, email, senha) VALUES (@nomeUsuario, @email, @senha)";
+                    string sqlInsert = "INSERT INTO usuarios (nomeUsuario, email,  senha) VALUES (@nomeUsuario, @email, @senha)";
 
                     MySqlCommand comandoSql = new MySqlCommand(sqlInsert, conexaoBanco);
 
@@ -107,6 +98,75 @@ namespace ListaDeTarefas
                 MessageBox.Show($"Erro ao cadastrar usuário -> {ex.Message}");
                 return false;
 
+            }
+        }
+
+
+        public bool CriarTarefa()
+        {
+            try
+            {
+                using (MySqlConnection conexaoBanco = new ConexaoDB().Conectar())
+                {
+
+                    string sqlInsert = "INSERT INTO tarefas (nomeTarefa, statusTarefa, dataInicio) VALUES (@nomeTarefa, @statusTarefa, @data)";
+
+
+                    MySqlCommand comandoSql = new MySqlCommand(sqlInsert, conexaoBanco);
+
+
+
+                    comandoSql.Parameters.AddWithValue("@nomeTarefa", NomeTarefa);
+                    comandoSql.Parameters.AddWithValue("@statusTarefa", StatusTarefa);
+                    comandoSql.Parameters.AddWithValue("@data", Data);
+
+
+                    int resultado = comandoSql.ExecuteNonQuery();
+
+                    if (resultado > 0)
+                    {
+                        return true;
+                    }
+                    else
+                    {
+                        return false;
+                    }
+                }
+            }
+            catch (Exception ex)
+            {
+                MessageBox.Show($"Erro ao cadastrar tarefa -> {ex.Message}");
+                return false;
+
+            }
+        }
+
+        public void listarTarefas(DataGridView dgv)
+        {
+            try
+            {
+
+                using (MySqlConnection conexaobanco = new ConexaoDB().Conectar())
+                {
+                    DataTable dataTable = new DataTable();
+                    string consultaSQL = "SELECT * FROM tarefas WHERE ";
+                    MySqlDataAdapter dataAdapter = new MySqlDataAdapter(consultaSQL, conexaobanco);
+
+                    dataAdapter.Fill(dataTable);
+
+                    dgv.AllowUserToAddRows = false;
+                    dgv.AutoSizeColumnsMode = DataGridViewAutoSizeColumnsMode.Fill;
+                    dgv.AllowUserToDeleteRows = true;
+                    dgv.DataSource = dataTable;
+                    dgv.AutoResizeColumns();
+                    dgv.ClearSelection();
+
+                }
+            }
+            catch (Exception ex)
+            {
+
+                throw;
             }
         }
 

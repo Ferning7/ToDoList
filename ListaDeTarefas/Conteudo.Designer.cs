@@ -33,14 +33,17 @@
             btnMinimizar = new PictureBox();
             btnFechar = new PictureBox();
             panelCentral = new Panel();
+            pictureBox1 = new PictureBox();
             navBar.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).BeginInit();
             ((System.ComponentModel.ISupportInitialize)btnFechar).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).BeginInit();
             SuspendLayout();
             // 
             // navBar
             // 
             navBar.BackColor = Color.FromArgb(0, 153, 173);
+            navBar.Controls.Add(pictureBox1);
             navBar.Controls.Add(btnMinimizar);
             navBar.Controls.Add(btnFechar);
             navBar.Dock = DockStyle.Top;
@@ -84,6 +87,16 @@
             panelCentral.Size = new Size(615, 437);
             panelCentral.TabIndex = 1;
             // 
+            // pictureBox1
+            // 
+            pictureBox1.Image = Properties.Resources.lista_de_tarefas__1_;
+            pictureBox1.Location = new Point(5, 2);
+            pictureBox1.Name = "pictureBox1";
+            pictureBox1.Size = new Size(35, 36);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+            pictureBox1.TabIndex = 16;
+            pictureBox1.TabStop = false;
+            // 
             // Conteudo
             // 
             AutoScaleDimensions = new SizeF(8F, 20F);
@@ -102,6 +115,7 @@
             navBar.ResumeLayout(false);
             ((System.ComponentModel.ISupportInitialize)btnMinimizar).EndInit();
             ((System.ComponentModel.ISupportInitialize)btnFechar).EndInit();
+            ((System.ComponentModel.ISupportInitialize)pictureBox1).EndInit();
             ResumeLayout(false);
         }
 
@@ -111,5 +125,6 @@
         private PictureBox btnMinimizar;
         private PictureBox btnFechar;
         private Panel panelCentral;
+        private PictureBox pictureBox1;
     }
 }
