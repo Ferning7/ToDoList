@@ -38,6 +38,10 @@ namespace ListaDeTarefas.UserControls
                     MessageBox.Show("Tarefa criada");
 
                 }
+                else
+                {
+                    MessageBox.Show("Preencha o campo!");
+                }
             }
             catch (Exception ex)
             {
@@ -47,8 +51,10 @@ namespace ListaDeTarefas.UserControls
 
         private void btnListar_Click(object sender, EventArgs e)
         {
+
             Tarefas tarefas = new Tarefas();
             tarefas.listarTarefas(dgvTarefas);
+
 
             if (!dgvTarefas.Columns.Contains("editar"))
             {
@@ -106,21 +112,28 @@ namespace ListaDeTarefas.UserControls
             int rowIndex = e.RowIndex;
             int columnIndex = e.ColumnIndex;
 
+            Usuarios user = new Usuarios();
+            Tarefas tarefas = new Tarefas();
+
             if (rowIndex >= 0 && columnIndex >= 0)
             {
-                Tarefas tarefas = new Tarefas();
+
                 var cell = dgvTarefas.Rows[rowIndex].Cells[columnIndex];
+
+                tarefas.StatusTarefa = cell.Value.ToString();
                
-                tarefas.StatusTarefa = cell.Value.ToString();
-                tarefas.StatusTarefa = cell.Value.ToString();
-                tarefas.StatusTarefa = cell.Value.ToString();
+                var idTarefaObj = dgvTarefas.Rows[rowIndex].Cells["id"].Value.ToString();
+                if (idTarefaObj == null) return;
 
-                var idTarefa = dgvTarefas.Rows[rowIndex].Cells["id"].Value.ToString();
-
-                tarefas.EditarTarefa();
+                tarefas.EditarTarefa(user.Id, tarefas.Id, tarefas.StatusTarefa);
 
 
             }
+        }
+
+        private void btnEditar_Click(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -1,30 +1,26 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\",
+  "WorkspaceRootPath": "C:\\Users\\Matheus\\source\\repos\\toDoList\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_tarde\\source\\repos\\todolist\\listadetarefas\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\matheus\\source\\repos\\todolist\\listadetarefas\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usuarios.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_tarde\\source\\repos\\todolist\\listadetarefas\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\matheus\\source\\repos\\todolist\\listadetarefas\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\tarefas.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_tarde\\source\\repos\\todolist\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\matheus\\source\\repos\\todolist\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\matheus\\source\\repos\\todolist\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
+      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|C:\\Users\\Matheus\\source\\repos\\toDoList\\listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
       "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\usercontrols\\uc_home.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form",
-      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}|Form"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|c:\\users\\aluno_tarde\\source\\repos\\todolist\\listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{FA424D35-461C-4521-B87A-A93A6A5DC5B5}|ListaDeTarefas\\ListaDeTarefas.csproj|solutionrelative:listadetarefas\\conteudo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -33,86 +29,82 @@
       "VerticalTabListWidth": 256,
       "DocumentGroups": [
         {
-          "DockedWidth": 265,
-          "SelectedChildIndex": 0,
+          "DockedWidth": 241,
+          "SelectedChildIndex": -1,
           "Children": [
             {
-              "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "Tarefas.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Tarefas.cs",
-              "RelativeDocumentMoniker": "ListaDeTarefas\\Tarefas.cs",
-              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Tarefas.cs",
-              "RelativeToolTip": "ListaDeTarefas\\Tarefas.cs",
-              "ViewState": "AgIAAIgAAAAAAAAAAAAwwJgAAAAVAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-20T12:20:06.672Z",
-              "EditorCaption": ""
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{3ae79031-e1bc-11d0-8f78-00a0c9110057}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
             }
           ]
         },
         {
-          "DockedWidth": 265,
+          "DockedWidth": 289,
           "SelectedChildIndex": 0,
           "Children": [
             {
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "Usuarios.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Usuarios.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\Usuarios.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\Usuarios.cs",
-              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Usuarios.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\Usuarios.cs",
               "RelativeToolTip": "ListaDeTarefas\\Usuarios.cs",
-              "ViewState": "AgIAABIAAAAAAAAAAAAwwB4AAAAhAAAAAAAAAA==",
+              "ViewState": "AgIAACkAAAAAAAAAAAAIwDgAAABOAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T19:26:21.595Z",
+              "WhenOpened": "2025-05-22T00:19:50.322Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "Conteudo.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs",
-              "RelativeDocumentMoniker": "ListaDeTarefas\\Conteudo.cs",
-              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs [Projeto]",
-              "RelativeToolTip": "ListaDeTarefas\\Conteudo.cs [Projeto]",
+              "DocumentIndex": 1,
+              "Title": "Tarefas.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\Tarefas.cs",
+              "RelativeDocumentMoniker": "ListaDeTarefas\\Tarefas.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\Tarefas.cs",
+              "RelativeToolTip": "ListaDeTarefas\\Tarefas.cs",
+              "ViewState": "AgIAAHYAAAAAAAAAAAAkwDgAAACPAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-05-21T13:41:06.626Z",
-              "EditorCaption": " [Projeto]"
+              "WhenOpened": "2025-05-20T12:20:06.672Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 3,
               "Title": "UC_Home.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\UserControls\\UC_Home.cs",
-              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs",
               "RelativeToolTip": "ListaDeTarefas\\UserControls\\UC_Home.cs",
-              "ViewState": "AgIAAGMAAAAAAAAAAAAswGwAAAAwAAAAAAAAAA==",
+              "ViewState": "AgIAAGUAAAAAAAAAAIA7wH4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T11:16:59.474Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 5,
+              "DocumentIndex": 2,
               "Title": "Conteudo.cs",
-              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\Conteudo.cs",
-              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\Conteudo.cs",
               "RelativeToolTip": "ListaDeTarefas\\Conteudo.cs",
-              "ViewState": "AgIAADIAAAAAAAAAAAAswDkAAAAdAAAAAAAAAA==",
+              "ViewState": "AgIAABcAAAAAAAAAAAAuwEEAAAAkAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T13:41:09.088Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 4,
               "Title": "UC_Home.cs [Projeto]",
-              "DocumentMoniker": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs",
+              "DocumentMoniker": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs",
               "RelativeDocumentMoniker": "ListaDeTarefas\\UserControls\\UC_Home.cs",
-              "ToolTip": "C:\\Users\\Aluno_Tarde\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs [Projeto]",
+              "ToolTip": "C:\\Users\\Matheus\\source\\repos\\toDoList\\ListaDeTarefas\\UserControls\\UC_Home.cs [Projeto]",
               "RelativeToolTip": "ListaDeTarefas\\UserControls\\UC_Home.cs [Projeto]",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-05-21T11:08:28.832Z",

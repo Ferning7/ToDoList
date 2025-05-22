@@ -45,20 +45,22 @@ namespace ListaDeTarefas.UserControls
 
         private void btnCadastrar_Click(object sender, EventArgs e)
         {
+Tarefas tarefas = new Tarefas();
+            Usuarios users = new Usuarios();
             try
             {
                 if (!txtNomeUsuario.Text.Equals("") && !txtEmailC.Text.Equals("") && !txtSenhaC.Text.Equals(""))
                 {
-                    Tarefas tarefas = new Tarefas();
-                    tarefas.Email = txtEmailC.Text;
-                    tarefas.NomeUsuario = txtNomeUsuario.Text;
-                    tarefas.Senha = txtSenhaC.Text;
 
-                    if (Tarefas.ValidarEmail(txtEmailC.Text))
+                    users.Email = txtEmailC.Text;
+                    users.NomeUsuario = txtNomeUsuario.Text;
+                    users.Senha = txtSenhaC.Text;
+
+                    if (Usuarios.ValidarEmail(txtEmailC.Text))
                     {
-                        if (tarefas.verificarEmailExistente())
+                        if (users.verificarEmailExistente())
                         {
-                            if (tarefas.CadastrarUsuario())
+                            if (users.CadastrarUsuario())
                             {
                                 MessageBox.Show("cadastro realizado" + MessageBoxIcon.Information);
                                 UC_Login log = new UC_Login();

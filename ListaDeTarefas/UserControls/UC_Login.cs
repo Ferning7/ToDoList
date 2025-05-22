@@ -23,16 +23,18 @@ namespace ListaDeTarefas.UserControls
         {
             try
             {
+                Tarefas tarefas = new Tarefas();
+                Usuarios users = new Usuarios();
                 if (!txtEmailL.Text.Equals("") && !txtSenhaL.Text.Equals(""))
                 {
-                    Tarefas tarefas = new Tarefas();
-                    tarefas.Email = txtEmailL.Text;
-                    tarefas.Senha = txtSenhaL.Text;
+
+                    users.Email = txtEmailL.Text;
+                    users.Senha = txtSenhaL.Text;
 
 
-                    if (Tarefas.ValidarEmail(txtEmailL.Text))
+                    if (Usuarios.ValidarEmail(txtEmailL.Text))
                     {
-                        if (tarefas.verificarLogin())
+                        if (users.verificarLogin())
                         {
                             UC_Home home = new UC_Home();
                             this.Controls.Clear();
